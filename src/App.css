@@ -1,0 +1,628 @@
+.body-background{
+  background-image: url("../public/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.bg-shade{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+
+
+.admin-background{
+  background-image: url("../public/admin-login-background.jpg");
+  background-size: cover;
+  height: 80vh;
+  border-radius: 30px;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  filter: drop-shadow(0px 7px black);
+  animation: fadeInUp 0.8s ease-out;
+}
+.bg-admin-shade{
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 80vh;
+  border-radius: 30px;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.admin-form-bg{
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  box-shadow: 3px 5px 5px black;
+  transform: translateY(0px);
+  transition: 0.3s;
+  
+}
+.admin-form-bg:hover{
+  transform: translateY(-9px);
+  transition: 0.3s;
+}
+
+
+.user-background{
+  background-image: url("../public/clouds.jpg");
+  background-size: cover;
+  height: 83.5vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: -15px;
+}
+.rocket{
+  background-image: url("../public/rocket.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%; 
+  transform: translateX(-50%) rotate(-45deg);
+  animation: bottom 3s ease-in-out, opacity 1s; 
+  opacity: 1;
+}
+.rocket.launch {
+  bottom: 100%; 
+  opacity: 0; 
+  transition: 3s;
+}
+.user-form-bg{
+  box-shadow: 3px 5px 5px black;
+  transform: translateY(0px);
+  transition: 0.3s;
+  
+}
+.user-form-bg:hover{
+  transform: translateY(-9px);
+  transition: 0.3s;
+}
+.user-login-body{
+  animation: fadeInUp 0.8s ease-out;
+}
+.userpass-reset-body{
+  animation: fadeInUp 0.8s ease-out; 
+}
+
+
+.add-video-bg{
+  background-image: url("../public/add-video.jpg");
+  background-size: cover;
+  height: 65vh;
+  border: 2px solid black;
+  border-radius: 30px;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50%;
+  box-shadow: 8px 8px 8px red;
+}
+
+
+
+.edit-video-bg{
+  background-image: url("../public/edit-video.jpg");
+  background-size: cover;
+  height: 400px;
+  border: 2px solid black;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 6px 6px 6px black;
+}
+.edit-video-color{
+  border: 2px solid black;
+  box-shadow: 0px 0px 5px black;
+  background-image:linear-gradient( 109.6deg, rgba(135,168,254,1) 11.2%, rgba(254,165,197,1) 100.2% );
+}
+
+
+.user-register-img{
+  background-image: url("../public/user-register.jpg");
+  background-size:cover;
+  transform: translateX(-10px);
+  transition: 0.7s;
+}
+.register-user-bg:hover .user-register-img{
+  transform: translateX(0px);
+  transition: 0.7s;
+}
+
+
+.user-card:hover{
+  transform: translateY(-5px) scaleZ(1.5);
+  transition: 0.4s;
+}
+.user-card{
+  transform: translateY(0px) scaleZ(1);
+  transition: 0.4s;
+}
+.user-card:hover .user-card-url{
+  width: 299px;
+  transition:ease-in;
+}
+.user-card-url{
+  transition: ease-out;
+}
+.user-dash-button{
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+.user-dash-button:hover{
+  transform: translateY(-5px);
+  transition: 0.5s;
+  color: blue;
+}
+.user-text-animation{
+  width: 22ch;
+  text-decoration: underline;
+  font-family: monospace;
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(30) 2 alternate-reverse;
+}
+@keyframes typing{
+  from{
+    width: 0ch;
+  }
+}
+
+
+
+.video-home-button-1{
+  transform: translateY(0px) translateX(-20px) scale(1);
+  transition: 0.4s;
+}
+.video-home-button-1:hover{
+  transform: translateY(-10px) translateX(-40px) scale(1.2);
+  transition: 0.4s;
+}
+.video-home-button-2{
+  transform: translateY(0px) translateX(20px) scale(1);
+  transition: 0.4s;
+}
+.video-home-button-2:hover{
+  transform: translateY(-10px) translateX(40px) scale(1.2);
+  transition: 0.4s;
+}
+.video-home-body{
+  animation: fadeInUp 0.8s ease-out;
+}
+
+
+.animationstyle {
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: black !important;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+.animationstyle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-in-out;
+}
+
+.animationstyle:hover::before {
+  transform: scaleX(1);
+}
+
+.animationstyle:hover {
+  color: white !important;
+}
+
+/* Smooth Icon Animation */
+.iconstyle {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth easing */
+}
+
+.animationstyle:hover .iconstyle {
+  transform: translateY(-5px);
+}
+.custom-card {
+  width: 90%; /* Adjust width */
+  max-width: 600px; /* Prevent overflow */
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px black;
+}
+.video-home-container {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.about-background{
+  background-image: url('../public/about-1.jpg');
+  width: 100%; 
+  height: 500px;
+  background-size: 100% 160%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-background-alpha{
+  width: 100%; 
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 100% 160%;
+  background-position: center;
+}
+.About-Mission-Border{
+  border: 2px solid red;
+  font-weight: bolder;
+  transform: translateX(-100%);
+  transition: 1.5s;
+}
+.Mission:hover .About-Mission-Border{
+  cursor: grab;
+  border: 2px solid darkviolet;
+  transform: translateX(0%);
+  transition: 1s;
+  box-shadow: 2px 2px 5px darkviolet;
+}
+.Card-Style{
+  transform: translateY(0px);
+  transition: 0.2s;
+}
+.Card-Style:hover{
+  transform: translateY(-12px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Card-Style:hover .card-title{
+  transition: 0.5s;
+  color: red;
+}
+@keyframes Find {
+  from{
+    border: 3px solid orange;
+    box-shadow: 5px 5x 15px orange;
+    width: 0%;
+  }
+  40%{
+    border: 3px solid greenyellow;
+    box-shadow: 5px 5px 15px greenyellow;
+    width: 40%;
+  }
+  80%{
+    border: 3px solid white;
+    box-shadow: 5px 5px 15px white;
+    width: 80%;
+  }
+  to{
+    border: 3px solid greenyellow;
+    box-shadow: 5px 5px 15px greenyellow;
+    width: 100%;
+  }
+}
+.Find-border{
+  animation-name: Find;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.carousel-indicators {
+  position: relative; /* Optional: adjust if you want them below the carousel */
+  margin-top: 10px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  background-color: #bbb !important;
+  border: none !important;
+  margin: 0 6px !important;
+  opacity: 1 !important;
+  transition: background-color 0.3s ease;
+}
+.carousel-indicators .active {
+  background-color: red !important;
+}
+.but-control:hover{
+  background-color: white;
+}
+.but-control:hover .btn-left{
+  color: red;
+}
+.but-control:hover .btn-right{
+  color: red;
+}
+.btn-left{
+  color: black;
+}
+.btn-right{
+  color: black;
+}
+.Card-Style-2{
+  transform: translateY(0px);
+  transition: 0.2s;
+}
+.Card-Style-2:hover{
+  transform: translateY(-12px);
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+.Card-Style-2:hover .text-style{
+  color: turquoise;
+  font-weight: bolder;
+}
+.Card-Style-2:hover .text-style-2{
+  color: yellow;
+}
+@keyframes Public{
+  from{
+    transform: rotateY(0deg);
+    color: black;
+  }
+  50%{
+    transform: rotateY(180deg);
+    color: red;
+  }
+  to{
+    transform: rotateY(360deg);
+    color: black;
+  }
+}
+.public-two{
+  animation-name: Public;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.join:hover .public-two{
+  animation-name: Public;
+  animation-timing-function:unset;
+  animation-duration: 0s;
+  animation-iteration-count:unset;
+}
+.about-container{
+  backdrop-filter: blur(15px);
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+
+.contact-body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 1000px;
+  width: 95%;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contact-h1, .contact-h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-info, .contact-img {
+  flex: 1;
+  min-width: 260px;
+}
+
+.contact-info h3 {
+  color: #ffd86b;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.contact-info p {
+  margin: 0 0 15px;
+  color: #f0f0f0;
+}
+
+.contact-img img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+.support-box {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.support-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffd86b;
+}
+
+.support-box p {
+  color: #eee;
+  margin-bottom: 10px;
+}
+
+.button-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button-links a {
+  display: inline-block;
+  background: #ffd86b;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.button-links a:hover {
+  background: #fff;
+  color: #333;
+  transform: scale(1.05);
+}
+
+.map-section {
+  margin-top: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.support-body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #eef2fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.support-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.support-h1,
+.support-h2 {
+  text-align: center;
+  color: #2e3a59;
+  margin-bottom: 10px;
+}
+
+.support-p {
+  text-align: center;
+  color: #5a5a5a;
+}
+
+.support-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.support-card {
+  background: #f0f4ff;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-5px);
+}
+
+.support-card h3 {
+  color: #3e57db;
+}
+
+.support-contact-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.support-button {
+  background: #4455aa;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.support-button:hover {
+  background: #2f3d85;
+  transform: scale(1.05);
+}
+
+.extra-content {
+  background: #eaf0fe;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 50px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.extra-content h2 {
+  margin-bottom: 20px;
+  color: #3a3a3a;
+}
