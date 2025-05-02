@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Video-Library/static/css/main.9e7e2441.css",
-    "main.js": "/React-Video-Library/static/js/main.3266953a.js",
+    "main.js": "/React-Video-Library/static/js/main.ea017bc0.js",
     "static/js/453.e737575b.chunk.js": "/React-Video-Library/static/js/453.e737575b.chunk.js",
     "static/media/banner.jpg": "/React-Video-Library/static/media/banner.f17d9a2bf5358b05319a.jpg",
     "static/media/admin-login-background.jpg": "/React-Video-Library/static/media/admin-login-background.949a1a3f54cf2085fd83.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/React-Video-Library/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Video-Library/index.html",
     "main.9e7e2441.css.map": "/React-Video-Library/static/css/main.9e7e2441.css.map",
-    "main.3266953a.js.map": "/React-Video-Library/static/js/main.3266953a.js.map",
+    "main.ea017bc0.js.map": "/React-Video-Library/static/js/main.ea017bc0.js.map",
     "453.e737575b.chunk.js.map": "/React-Video-Library/static/js/453.e737575b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e7e2441.css",
-    "static/js/main.3266953a.js"
+    "static/js/main.ea017bc0.js"
   ]
 }
